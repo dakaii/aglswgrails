@@ -1,0 +1,16 @@
+
+user_one:
+  password_digest: <%= BCrypt::Password.create('testpassword', cost: 5) %>
+  token: JKV1QiLCJhbGciOiJIU
+  email: user_one@email.com
+  name: user_one_name
+  created_at: <%= 1.days.from_now.to_s :db %>
+  updated_at: <%= 2.days.from_now.to_s :db %>
+
+user_two:
+  password_digest: <%= BCrypt::Password.create('testpassword', cost: 6) %>
+  token: KV1QiLhbGciOiUzI1NiJ
+  email: user_two@email.com
+  name: user_two_name
+  created_at: <%= 2.days.from_now.to_s :db %>
+  updated_at: <%= 3.days.from_now.to_s :db %>

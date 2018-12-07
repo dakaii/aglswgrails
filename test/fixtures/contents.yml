@@ -1,0 +1,24 @@
+
+content_one:
+  project: project_one
+  user: user_two
+  title: mock_title_one
+  type: 5
+  created_at: <%= 2.days.from_now.to_s :db %>
+  updated_at: <%= 3.days.from_now.to_s :db %>
+
+content_two:
+  project: project_one
+  user: user_two
+  title: mock_title_two
+  type: 4
+  created_at: <%= 1.days.from_now.to_s :db %>
+  updated_at: <%= 2.days.from_now.to_s :db %>
+
+content_three:
+  project: project_two
+  user: user_one
+  title: mock_title_three
+  type: 3
+  created_at: <%= 1.days.from_now.to_s :db %>
+  updated_at: <%= 2.days.from_now.to_s :db %>

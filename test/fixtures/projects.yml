@@ -1,0 +1,14 @@
+
+project_one:
+  title: project_one_name
+  thumbnail: one@thumbnail.com
+  description: description_one
+  created_at: <%= 2.days.from_now.to_s :db %>
+  updated_at: <%= 3.days.from_now.to_s :db %>
+
+project_two:
+  title: project_two_name
+  thumbnail: two@thumbnail.com
+  description: description_two
+  created_at: <%= 4.days.from_now.to_s :db %>
+  updated_at: <%= 5.days.from_now.to_s :db %>
